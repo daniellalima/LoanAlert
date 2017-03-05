@@ -22,8 +22,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/lst_livros">
+            android:layout_height="match_parent">
 
             <EditText
                 android:layout_width="match_parent"
@@ -52,7 +51,8 @@
             android:layout_height="match_parent"
             android:layout_below="@+id/btn_adicionar"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:id="@+id/lst_livros" />
 
     </LinearLayout>
 
