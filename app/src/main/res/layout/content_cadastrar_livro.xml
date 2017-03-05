@@ -20,7 +20,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:text="Título"
+            android:text="@string/lbl_titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView" />
@@ -28,7 +28,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
+            android:inputType="text"
             android:ems="10"
             android:id="@+id/txt_titulo" />
 
@@ -36,7 +36,8 @@
             android:text="Autor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            tools:text="@string/lbl_autor" />
 
         <EditText
             android:layout_width="match_parent"
@@ -49,7 +50,8 @@
             android:text="Anotações"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView5" />
+            android:id="@+id/textView5"
+            tools:text="@string/lbl_anotacoes" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -58,22 +60,23 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
+                android:inputType="text"
                 android:ems="10"
-                android:id="@+id/editText6" />
+                android:id="@+id/txt_anotacoes" />
         </FrameLayout>
 
         <TextView
-            android:text="Empréstimo"
+            android:text="@string/lbl_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView6" />
 
-        <Button
-            android:text="Data de devolução"
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_devolucao" />
+            android:inputType="textPersonName|date"
+            android:ems="10"
+            android:id="@+id/txt_data" />
 
     </LinearLayout>
 
